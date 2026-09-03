@@ -59,11 +59,22 @@ pip install -r requirements.txt
 
 ### Run the Application
 
-```bash
+The package lives under `src/`, so `src` must be on `PYTHONPATH` (it is not
+installed as a package). `pytest` picks this up automatically via
+`pytest.ini`; the CLI must set it explicitly:
+
+Windows (PowerShell):
+
+```powershell
+$env:PYTHONPATH = "src"
 python -m repo_health <repository-path>
 ```
 
-> Verify and update this command when the CLI entry point is implemented.
+macOS/Linux:
+
+```bash
+PYTHONPATH=src python -m repo_health <repository-path>
+```
 
 ### Run Tests
 
