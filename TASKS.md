@@ -4,23 +4,23 @@
 
 ### CLI / Interface — B
 
-- [ ] B1 — Create CLI entry point
-- [ ] B2 — Accept repository path argument
-- [ ] B3 — Display analysis results
-- [ ] B4 — Handle invalid command-line input
+- [x] B1 — Create CLI entry point
+- [x] B2 — Accept repository path argument
+- [x] B3 — Display analysis results
+- [x] B4 — Handle invalid command-line input
 
 ### Repository Analysis — A
 
-- [ ] A1 — Implement repository validation
-- [ ] A2 — Implement Git status check
-- [ ] A3 — Implement recent commit check
-- [ ] A4 — Implement branch check
-- [ ] A5 — Implement TODO/FIXME detection
-- [ ] A6 — Implement test detection
-- [ ] A7 — Implement documentation detection
+- [x] A1 — Implement repository validation
+- [x] A2 — Implement Git status check
+- [x] A3 — Implement recent commit check
+- [x] A4 — Implement branch check
+- [x] A5 — Implement TODO/FIXME detection
+- [x] A6 — Implement test detection
+- [x] A7 — Implement documentation detection
 
 ### Integration
 
-- [ ] I1 — Connect CLI to repository analyzer
-- [ ] I2 — Produce complete terminal health report
-- [ ] I3 — Test core flow end to end
+- [x] I1 — Connect CLI to repository analyzer
+- [x] I2 — Produce complete terminal health report
+- [x] I3 — Test core flow end to end
