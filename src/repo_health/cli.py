@@ -1,6 +1,7 @@
 import sys
 
 from repo_health.analyzer import analyze_repository
+from repo_health.report import generate_report
 
 
 def main():
@@ -12,7 +13,7 @@ def main():
 
     results = analyze_repository(repo_path)
 
-    print(results)
+    print(generate_report(results))
 
 
 if __name__ == "__main__":
